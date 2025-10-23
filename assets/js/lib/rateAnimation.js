@@ -1,0 +1,5 @@
+const initRatesBtnAnimation = () => {
+
+};
+
+export { initRatesBtnAnimation };

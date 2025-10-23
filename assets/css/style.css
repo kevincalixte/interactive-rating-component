@@ -1,0 +1,64 @@
+/* STYLE ARRIERE PLAN */
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Overpass', sans-serif;
+}
+/* STYLE DES COMPONENTS */
+#component {
+  background-color: hsl(213, 19%, 18%);
+  width: 90%;
+  height: 55%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  padding: 1.3rem;
+}
+#componentImg {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 21%);
+  padding: 1rem;
+}
+#componentRatesBtn {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 21%);
+  padding: 1rem;
+}
+#componentRates {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+#componentTitle {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+#componentText {
+  font-size: 15px;
+  font-weight: 400;
+}
+#componentText,
+#componentRatesBtn {
+  color: hsl(217, 12%, 63%);
+}
+#componentRatesBtn {
+  font-weight: 700;
+}
+#componentBtn {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+#componentThank {
+  display: none;
+}

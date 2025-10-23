@@ -1,0 +1,37 @@
+/* === Mini Reset CSS === */
+
+/* Supprime les marges/paddings par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Uniformise la taille des textes */
+html {
+  font-size: 16px;
+}
+
+/* Enlève le style des listes */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Supprime la déco des liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Donne un fond blanc et une police lisible */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+/* Supprime les bordures des boutons */
+button {
+  border: none;
+}
