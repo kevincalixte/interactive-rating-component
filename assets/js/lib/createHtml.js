@@ -30,16 +30,17 @@ const initHtml = () => {
   componentText.textContent =
     "Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!";
   componentBtn.textContent = "Submit";
-  componentThank.textContent = "You selected <!-- Add rating here --> out of 5";
+  const rating = "";
   // PLACEMENT DES ELEMENTS
   body.append(component);
   componentImgContainer.append(componentImg);
   component.append(componentImgContainer);
+  component.append(componentThank);
   component.append(componentTitle);
   component.append(componentText);
   component.append(componentRates);
   component.append(componentBtn);
-  component.append(componentThank);
+
   // RETOURNE LES ELEMENTS
   return {
     component,
@@ -50,7 +51,8 @@ const initHtml = () => {
     componentRates,
     componentBtn,
     componentThank,
-    rateButtons: componentRates.querySelectorAll("button")
+    rateButtons: componentRates.querySelectorAll("button"),
+    rating,
   };
 };
 

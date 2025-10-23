@@ -1,5 +1,7 @@
+import { initBtnSubmit } from "./lib/btnSubmit.js";
 import { initHtml } from "./lib/createHtml.js";
-import { initRatesBtnAnimation } from "./lib/rateAnimation.js";
+import { initBtnRates} from "./lib/btnRates.js";
 
 globalThis.element = initHtml();
-initRatesBtnAnimation();
+initBtnRates();
+initBtnSubmit();

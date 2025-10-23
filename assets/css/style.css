@@ -18,6 +18,9 @@ body {
   gap: .3rem;
   padding: 1.3rem;
 }
+#componentImgContainer{
+    display: flex;
+}
 #componentImg {
   border-radius: 50%;
   background-color: hsl(213, 19%, 21%);
@@ -30,6 +33,7 @@ body {
 }
 #componentRates {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
   margin: 1rem 0;
 }
@@ -61,4 +65,7 @@ body {
 }
 #componentThank {
   display: none;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 21%) ;
+  border-radius: 2rem;
 }

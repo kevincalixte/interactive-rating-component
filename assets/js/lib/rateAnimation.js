@@ -1,5 +1,0 @@
-const initRatesBtnAnimation = () => {
-
-};
-
-export { initRatesBtnAnimation };
