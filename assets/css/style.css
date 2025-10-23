@@ -5,21 +5,21 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 /* STYLE DES COMPONENTS */
 #component {
   background-color: hsl(213, 19%, 18%);
   width: 90%;
-  height: 55%;
+  max-height: 60%;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  gap: .3rem;
+  gap: 0.3rem;
   padding: 1.3rem;
 }
-#componentImgContainer{
-    display: flex;
+#componentImgContainer {
+  display: flex;
 }
 #componentImg {
   border-radius: 50%;
@@ -30,7 +30,9 @@ body {
   border-radius: 50%;
   background-color: hsl(213, 19%, 21%);
   padding: 1rem;
-}
+  width: 47px;   
+  height: 47px; 
+} 
 #componentRates {
   display: flex;
   justify-content: center;
@@ -66,6 +68,6 @@ body {
 #componentThank {
   display: none;
   color: hsl(25, 97%, 53%);
-  background-color: hsl(213, 19%, 21%) ;
+  background-color: hsl(213, 19%, 21%);
   border-radius: 2rem;
 }
