@@ -1,0 +1,25 @@
+@media screen and (min-width: 375px){
+    #component{
+        /* width: 40%; */
+    }
+} 
+@media screen and (min-width: 576px){
+    #component{
+        width: 60%;
+    }
+} 
+@media screen and (min-width: 768px){
+    #component{
+        width: 50%;
+    }
+} 
+@media screen and (min-width: 1024px){
+    #component{
+        width: 40%;
+    }
+} 
+@media screen and (min-width: 1440px){
+    #component{
+        width: 30%;
+    }
+} 
